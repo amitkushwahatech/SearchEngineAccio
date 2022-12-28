@@ -2,19 +2,29 @@ body{
     text-align : center;
     //background : #FFF6BD;
     //background: linear-gradient(110deg, color1 color1-stop-at, color2 color2-start-at);
-     background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+     //background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+     background: linear-gradient(110deg, #3bfdbe 60%, #ffed4b 60%);
      font-family: "INK FREE";
+
 }
 table {
   border-collapse: collapse;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  box-shadow: 0.8rem 0.8rem 1.4rem red, -0.2rem -0.2rem 1.8rem #b4ff00;
+  }
+
 }
 tr:nth-child(even) {background-color: #f2f2f2;}
-th{background-color: #04AA6D; }
+th{
+background-color: #04AA6D;
+background-color: #91e31c;
+font-size: xx-large; }
 th, td {
   padding: 15px;
   text-align: left;
+  font-weight:900;
 }
+
 tr:hover {background-color: coral;}
 input[type=text]{
    border: 2px solid black;
